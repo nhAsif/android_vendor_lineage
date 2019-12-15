@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
 # GApps
 ifeq ($(WITH_GMS),true)
 $(warning Building with gapps)
-$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+    $(call inherit-product, vendor/gapps/common/common-vendor.mk)
 else
 $(warning Building vanilla - without gapps)
 $(warning Add export WITH_GMS=true)
