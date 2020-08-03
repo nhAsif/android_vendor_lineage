@@ -187,6 +187,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# GVM
+PRODUCT_PACKAGES += \
+    GVM-SBH-L \
+    GVM-SBH-M \
+    GVM-SBH-XL \
+    GVM-URM-M \
+    GVM-URM-L \
+    GVM-URM-R
+
 # Custom Overlays
 # Settings
 PRODUCT_PACKAGES += \
