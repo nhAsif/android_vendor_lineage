@@ -196,6 +196,11 @@ PRODUCT_PACKAGES += \
     GVM-URM-L \
     GVM-URM-R
 
+# Gesture Overlays
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
+
 # Custom Overlays
 # Settings
 PRODUCT_PACKAGES += \
