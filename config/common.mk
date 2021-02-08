@@ -199,7 +199,10 @@ PRODUCT_PACKAGES += \
 # Gesture Overlays
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationRadiusLow \
+    GesturalNavigationRadiusVeryLow \
+    GesturalNavigationRadiusHidden
 
 # Custom Overlays
 # Settings
