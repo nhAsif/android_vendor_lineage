@@ -185,6 +185,8 @@ PRODUCT_PACKAGES += \
 # Custom Overlays
 # Settings
 PRODUCT_PACKAGES += \
+    SystemDark12Overlay \
+    SystemUIDark12Overlay \
     SystemRavenBlackOverlay \
     SystemUIRavenBlackOverlay \
     SystemDarkGrayOverlay \
