@@ -1,0 +1,24 @@
+//
+// Prebuilt apps for fork lineage
+//
+
+// Duckduck go browser
+android_app_import {
+    name: "Duckduckgo",
+    apk: "duckduckgo.apk",
+    presigned: true,
+    overrides: ["Browser2 Jelly"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
+    name: "SimpleGallery",
+    apk: "SimpleGallery.apk",
+    presigned: true,
+    overrides: ["Gallery2 SnapdragonGallery"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
