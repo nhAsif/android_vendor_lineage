@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
     LineageThemesStub \
     ThemePicker
 
+# Immersive Navigation
+PRODUCT_PACKAGES += \
+    ImmersiveNavigationOverlay
+
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
