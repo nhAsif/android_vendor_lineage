@@ -329,11 +329,9 @@ else
     FLOS_TYPE := vanilla
 endif
 
-# Do not enforce privapp-permissions whitelist on unofficial builds
-ifneq ($(LINEAGE_BUILDTYPE), UNOFFICIAL)
+# privapp-permissions
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=enforce
-endif
+    ro.control_privapp_permissions=log
 
 ifeq ($(TARGET_FLOS), true)
     LINEAGE_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-FORK-$(FLOS_TYPE)-$(shell date -u +%Y%m%d-%H%M)-$(LINEAGE_BUILD)
