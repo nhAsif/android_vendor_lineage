@@ -17,10 +17,13 @@ PRODUCT_PACKAGES += \
     Eleven \
     Etar \
     Profiles \
+    Launcher3QuickStep \
     Seedvault
 
-# Fork Additions
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+     Launcher3QuickStep
 
+# Fork Additions
 PRODUCT_PACKAGES += \
     Duckduckgo \
     SimpleGallery \
@@ -28,20 +31,6 @@ PRODUCT_PACKAGES += \
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
 PRODUCT_PACKAGES += \
     AudioFX
-endif
-
-ifeq ($(PRODUCT_TYPE), go)
-PRODUCT_PACKAGES += \
-    TrebuchetQuickStepGo
-
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    TrebuchetQuickStepGo
-else
-PRODUCT_PACKAGES += \
-    TrebuchetQuickStep
-
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    TrebuchetQuickStep
 endif
 
 # Accents
