@@ -228,6 +228,10 @@ PRODUCT_PACKAGES += \
     SystemClearSpringOverlay \
     SystemUIClearSpringOverlay
 
+# Fonts
+PRODUCT_PACKAGES += \
+    Custom-Fonts
+
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
