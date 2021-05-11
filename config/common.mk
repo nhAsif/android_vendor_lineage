@@ -82,6 +82,10 @@ ifneq ($(TARGET_DISABLE_LINEAGE_SDK), true)
 include vendor/lineage/config/lineage_sdk_common.mk
 endif
 
+# Fork Permissions
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/privapp-permissions-fork-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-fork-system_ext.xml \
+
 # TWRP
 ifeq ($(WITH_TWRP),true)
 include vendor/lineage/config/twrp.mk
