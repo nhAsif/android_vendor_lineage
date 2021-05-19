@@ -207,8 +207,10 @@ PRODUCT_PACKAGES += \
     StitchImage
 
 # FOD
+ifneq ($(filter fajita RMX1931 y2s,$(TARGET_DEVICE)),)
 PRODUCT_PACKAGES += \
     FodAnimationResources
+endif
 
 PRODUCT_VERSION_MAJOR = 18
 PRODUCT_VERSION_MINOR = 1
