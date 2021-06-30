@@ -58,7 +58,8 @@ PRODUCT_PACKAGES += \
     LineagePinkAccent \
     LineagePurpleAccent \
     LineageRedAccent \
-    LineageYellowAccent
+    LineageYellowAccent \
+    LineageTealAccent
 
 # Charger
 PRODUCT_PACKAGES += \
