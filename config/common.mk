@@ -297,8 +297,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_land_l=64 \
     ro.com.google.ime.kb_pad_land_r=64
 
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
-
 PRODUCT_VERSION_MAJOR = 18
 PRODUCT_VERSION_MINOR = 1
 PRODUCT_VERSION_MAINTENANCE := 0
