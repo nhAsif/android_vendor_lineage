@@ -142,7 +142,8 @@ PRODUCT_PACKAGES += \
     SwitchAOSP \
     SwitchTelegram \
     SwitchMD2 \
-    SwitchOOS
+    SwitchOOS \
+    SwitchAndroid12
 
 # Config
 PRODUCT_PACKAGES += \
