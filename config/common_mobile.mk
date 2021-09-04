@@ -15,13 +15,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Backgrounds \
     Eleven \
-    Etar \
     Profiles \
     Launcher3QuickStep \
     Seedvault
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
      Launcher3QuickStep
+
+# Etar
+ifneq ($(WITH_GMS),true)
+PRODUCT_PACKAGES += \
+    Etar
+endif
 
 # Fork Additions
 PRODUCT_PACKAGES += \
