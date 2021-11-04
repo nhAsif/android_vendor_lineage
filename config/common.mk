@@ -113,8 +113,7 @@ PRODUCT_PACKAGES += \
     LineageParts \
     LineageSettingsProvider \
     LineageSetupWizard \
-    MatLog \
-    Updater
+    MatLog
 
 # Pixel Sounds
 PRODUCT_COPY_FILES += \
